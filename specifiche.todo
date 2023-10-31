@@ -1,71 +1,71 @@
-Milestone 1 - Inizializzazione del Progetto e Accesso Utente
+Milestone 1 - Inizializzazione del Progetto e Accesso Utente V
 
    Iniziate creando un repository su GitHub per il vostro progetto. V
 
    Crea un nuovo progetto Java in Visual Studio Code V
 
-   Suggerimento: Crea una classe principale chiamata CatalogoProdotti che fungerà da punto di ingresso dell'applicazione.
+   Suggerimento: Crea una classe principale chiamata CatalogoProdotti che fungerà da punto di ingresso dell'applicazione. V
 
-   Crea una struttura dati (ad esempio, un ArrayList) per memorizzare i prodotti.
+   Crea una struttura dati (ad esempio, un ArrayList) per memorizzare i prodotti. V
 
-   Implementate un menu di accesso con le seguenti opzioni: Accedi come Utente, Esci.
+   Implementate un menu di accesso con le seguenti opzioni: Accedi come Utente, Esci. V
 
-   Consentite all'utente di inserire un nome utente e una password (la registrazione può essere fatta solo da "Utente").
+   Consentite all'utente di inserire un nome utente e una password (la registrazione può essere fatta solo da "Utente"). V
 
-   Verificate le credenziali e permettete l'accesso se sono corrette.
+   Verificate le credenziali e permettete l'accesso se sono corrette. V
 
-   Dopo l'accesso come utente, visualizzate un menu con le seguenti opzioni: Visualizza Prodotti, Esci.
-
-
-
-Milestone 2 - Implementazione dell'Accesso Amministratore e Gestione dei Prodotti
-
-   Implementate la funzionalità di accesso come "Amministratore".
-
-   Dopo l'accesso come amministratore, visualizzate un menu con tutte le opzioni, comprese quelle per la gestione dei prodotti.
-
-   Consentite la creazione di nuovi prodotti, includendo i seguenti dettagli per ciascun prodotto: Nome del prodotto (una stringa che rappresenta il nome del prodotto), Prezzo del prodotto (un valore numerico che rappresenta il prezzo del prodotto) Quantità disponibile (un valore numerico che rappresenta la quantità di prodotti disponibili)
-
-   Implementate la funzionalità per l'aggiunta di nuovi prodotti con questi dettagli.
-
-   Consentite la rimozione di prodotti esistenti, consentendo all'utente di specificare un criterio (ad esempio, nome del prodotto).
-
-   Aggiornate il catalogo dopo la rimozione del prodotto.
-
-   Mostrate un messaggio di conferma dopo l'aggiunta o la rimozione dei prodotti.
+   Dopo l'accesso come utente, visualizzate un menu con le seguenti opzioni: Visualizza Prodotti, Esci. V
 
 
 
-Milestone 3 - Implementazione delle Altre Opzioni
+Milestone 2 - Implementazione dell'Accesso Amministratore e Gestione dei Prodotti V
 
-   Dettagli per l'Implementazione di "Visualizza Prodotti"
+   Implementate la funzionalità di accesso come "Amministratore". V
 
-      Implementate la funzionalità "Visualizza Prodotti" che consente di visualizzare l'elenco completo dei prodotti nel catalogo.
+   Dopo l'accesso come amministratore, visualizzate un menu con tutte le opzioni, comprese quelle per la gestione dei prodotti. V
 
-      Mostrate tutti i dettagli dei prodotti, compreso il nome, il prezzo e la quantità disponibile.
+   Consentite la creazione di nuovi prodotti, includendo i seguenti dettagli per ciascun prodotto: Nome del prodotto (una stringa che rappresenta il nome del prodotto), Prezzo del prodotto (un valore numerico che rappresenta il prezzo del prodotto) Quantità disponibile (un valore numerico che rappresenta la quantità di prodotti disponibili) V
 
-   Dettagli per l'Implementazione di "Modifica Prodotto"
+   Implementate la funzionalità per l'aggiunta di nuovi prodotti con questi dettagli. V
 
-      Implementate la funzionalità "Modifica Prodotto" che consente di modificare i dettagli di un prodotto esistente.
+   Consentite la rimozione di prodotti esistenti, consentendo all'utente di specificare un criterio (ad esempio, nome del prodotto). V
 
-      Consentite all'utente di specificare il prodotto da modificare, ad esempio, inserendo il nome del prodotto.
+   Aggiornate il catalogo dopo la rimozione del prodotto. V
 
-      Consentite di modificare il nome, il prezzo e la quantità disponibile del prodotto.
-
-      Dopo la modifica, aggiornate il catalogo con le nuove informazioni.
-
-   Dettagli per l'Implementazione di "Cerca Prodotto"
-
-      Implementate la funzionalità "Cerca Prodotto" che consente di cercare prodotti nel catalogo in base a criteri specifici.
-
-      Consentite all'utente di specificare un criterio di ricerca (ad esempio, nome del prodotto) e visualizzare tutti i prodotti che corrispondono a quel criterio.
+   Mostrate un messaggio di conferma dopo l'aggiunta o la rimozione dei prodotti. V
 
 
 
-IMPORTANTE: ADMIN può creare, modificare, cancellare e leggere
+Milestone 3 - Implementazione delle Altre Opzioni V
 
-USER: Leggere
+   Dettagli per l'Implementazione di "Visualizza Prodotti" V
 
-(Bonus: Cerca prodotto)
+      Implementate la funzionalità "Visualizza Prodotti" che consente di visualizzare l'elenco completo dei prodotti nel catalogo. V
 
-Assicuratevi di commentare e documentare il codice in modo appropriato mentre procedete con l'implementazione.
+      Mostrate tutti i dettagli dei prodotti, compreso il nome, il prezzo e la quantità disponibile. V
+
+   Dettagli per l'Implementazione di "Modifica Prodotto" V
+
+      Implementate la funzionalità "Modifica Prodotto" che consente di modificare i dettagli di un prodotto esistente. V
+
+      Consentite all'utente di specificare il prodotto da modificare, ad esempio, inserendo il nome del prodotto. V
+
+      Consentite di modificare il nome, il prezzo e la quantità disponibile del prodotto. V
+
+      Dopo la modifica, aggiornate il catalogo con le nuove informazioni. V
+
+   Dettagli per l'Implementazione di "Cerca Prodotto" V
+
+      Implementate la funzionalità "Cerca Prodotto" che consente di cercare prodotti nel catalogo in base a criteri specifici. V
+
+      Consentite all'utente di specificare un criterio di ricerca (ad esempio, nome del prodotto) e visualizzare tutti i prodotti che corrispondono a quel criterio. V
+
+
+
+IMPORTANTE: ADMIN può creare, modificare, cancellare e leggere V
+
+USER: Leggere V
+
+(Bonus: Cerca prodotto) V
+
+Assicuratevi di commentare e documentare il codice in modo appropriato mentre procedete con l'implementazione. V
